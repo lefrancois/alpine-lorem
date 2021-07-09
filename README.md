@@ -16,7 +16,7 @@ Include the following `<script>` tag in the `<head>` of your document, just befo
 
 ```html
 <script
-    src="https://cdn.jsdelivr.net/npm/@lefrancois/alpine-lorem@1.x.x/dist/cdn.min.js"
+    src="https://cdn.jsdelivr.net/npm/@lefrancois/alpine-lorem@1/dist/cdn.min.js"
     defer
 ></script>
 ```
