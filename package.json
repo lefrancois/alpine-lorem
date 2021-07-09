@@ -1,7 +1,7 @@
 {
     "name": "@lefrancois/alpine-lorem",
     "description": "Add easy lorem ipsum text creation to your Alpine 3.x components with a custom directive.",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "author": {
         "name": "Michael Lefrancois",
         "email": "michael@lefrancois.de",
