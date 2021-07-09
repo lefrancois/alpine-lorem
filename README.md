@@ -53,7 +53,7 @@ Optionally you can set the number of paragraphs and word per paragraph.
 
 ```html
 <div x-data>
-    <div x-lorem="[2,160]"></div>
+    <div x-lorem="2,160"></div>
 </div>
 ```
 
