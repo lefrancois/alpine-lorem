@@ -49,7 +49,7 @@ To create random lorem ipsum text, just use the `x-lorem` directive on an elemen
 </div>
 ```
 
-Optionally you can set the number of paragraphs and word per paragraph.
+Optionally you can set the number of paragraphs and words per paragraph.
 
 ```html
 <div x-data>
