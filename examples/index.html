@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alpine.js Lorem</title>
+        <script type="module">
+            import Lorem from '../dist/module.esm.js'
+
+            document.addEventListener('alpine:initializing', () => {
+                window.Alpine.plugin(Lorem)
+            })
+        </script>
+        <script defer src="https://unpkg.com/alpinejs@3.1.1/dist/cdn.min.js"></script>
+    </head>
+    <body>
+        <h1>1 paragraph with 100 words (default)</h1>
+        <div x-data x-lorem></div>
+        <h1>3 Paragraphs with 90 words</h1>
+        <div x-data x-lorem="[3,90]"></div>
+    </body>
+</html>

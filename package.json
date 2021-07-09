@@ -1,0 +1,24 @@
+{
+    "name": "@lefrancois/alpine-lorem",
+    "description": "Add easy lorem ipsum text creation to your Alpine 3.x components with a custom directive.",
+    "version": "1.0.0",
+    "author": {
+        "name": "Michael Lefrancois",
+        "email": "michael@lefrancois.de",
+        "url": "https://www.lefrancois.de"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lefrancois/alpine-lorem"
+    },
+    "main": "dist/module.cjs.js",
+    "module": "dist/module.esm.js",
+    "devDependencies": {
+        "brotli-size": "^4.0.0",
+        "esbuild": "^0.8.39"
+    },
+    "scripts": {
+        "build": "node ./scripts/build.js",
+        "watch": "node ./scripts/build.js --watch"
+    }
+}
