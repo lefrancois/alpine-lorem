@@ -4,7 +4,7 @@ export default function (Alpine) {
         let paragraphs = 1
         let words = 100
         if (expression) {
-            const parts = evaluate(expression)
+            const parts = expression.split(',')
             paragraphs = parts[0]
             words = parts[1]
         }
